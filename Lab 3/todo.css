@@ -1,0 +1,93 @@
+body {
+  font-family: "Arial", sans-serif;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 0 20px;
+  background: #f0f2f5;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+#intask {
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+#intask:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+  outline: none;
+}
+
+#addTask {
+  padding: 12px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.2s, transform 0.1s;
+}
+
+#addTask:hover {
+  background-color: #357ab8;
+  transform: translateY(-2px);
+}
+
+#mylist {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+#mylist li {
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s;
+}
+
+#mylist li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#mylist li button {
+  background-color: #e74c3c;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+#mylist li button:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
