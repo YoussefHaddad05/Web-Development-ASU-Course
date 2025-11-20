@@ -1,16 +1,55 @@
-# React + Vite
+# Udemy-Style Learning Platform (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, clean, Udemy-inspired frontend built with **React**.  
+Includes hero sections, skill cards, course carousels, company logos, tab navigation, and reusable components.
 
-Currently, two official plugins are available:
+This project can be used as:
+- A portfolio project  
+- A UI template  
+- A landing page for an e-learning product  
+- A React components library
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ Hero / Bblack Section  
+A clean promotional section with:
+- Big title & subtitle  
+- 2×2 feature grid  
+- Custom styling  
+- Fully responsive  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 Skill Cards  
+A grid of cards with:
+- Background image  
+- Floating white info box  
+- Student count  
+- Title  
+- Arrow link  
+- 80% centered card info box
+
+---
+
+### 📚 Course Carousel  
+A horizontally sliding card system:
+- Arrows for navigation  
+- Tabs (static for now, dynamic-ready)  
+- Auto slicing (4 at a time)  
+- Responsive layout  
+- Reusable `<CourseCard />` component
+
+---
+
+### 🌍 Trusted Companies  
+A clean, minimal logo section:
+- 8 company logos  
+- Centered layout  
+- Hover effects  
+- Fully customizable
+
+---
+
+## 📁 Project Struct
