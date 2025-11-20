@@ -1,6 +1,6 @@
 ⚡ Udemy-Style Learning Platform (React)
 
-##A clean and modern Udemy-inspired frontend built with React.
+A clean and modern Udemy-inspired frontend built with React.
 Includes a hero section, skill cards, a course carousel, and a trusted-companies logo row — fully responsive and component-based. Perfect for portfolios, landing pages, and UI demos.
 
 ✨ Features
