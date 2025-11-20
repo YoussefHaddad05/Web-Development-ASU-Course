@@ -49,7 +49,3 @@ A clean, minimal logo section:
 - Centered layout  
 - Hover effects  
 - Fully customizable
-
----
-
-## 📁 Project Struct
