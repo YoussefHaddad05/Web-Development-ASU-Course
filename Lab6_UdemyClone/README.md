@@ -1,51 +1,16 @@
-# Udemy-Style Learning Platform (React)
+⚡ #Udemy-Style Learning Platform (React)#
 
-A modern, clean, Udemy-inspired frontend built with **React**.  
-Includes hero sections, skill cards, course carousels, company logos, tab navigation, and reusable components.
+A clean and modern Udemy-inspired frontend built with React.
+Includes a hero section, skill cards, a course carousel, and a trusted-companies logo row — fully responsive and component-based. Perfect for portfolios, landing pages, and UI demos.
 
-This project can be used as:
-- A portfolio project  
-- A UI template  
-- A landing page for an e-learning product  
-- A React components library
+✨ #Features#
 
----
+Nav Bar with search bar and navigation links
 
-## 🚀 Features
+Hero Section with title, subtitle, and a simple 2×2 feature grid
 
-### ✅ Hero / Bblack Section  
-A clean promotional section with:
-- Big title & subtitle  
-- 2×2 feature grid  
-- Custom styling  
-- Fully responsive  
+Skill Cards with background images and centered info panels
 
----
+Course Carousel with sliding navigation and reusable components
 
-### 🎨 Skill Cards  
-A grid of cards with:
-- Background image  
-- Floating white info box  
-- Student count  
-- Title  
-- Arrow link  
-- 80% centered card info box
-
----
-
-### 📚 Course Carousel  
-A horizontally sliding card system:
-- Arrows for navigation  
-- Tabs (static for now, dynamic-ready)  
-- Auto slicing (4 at a time)  
-- Responsive layout  
-- Reusable `<CourseCard />` component
-
----
-
-### 🌍 Trusted Companies  
-A clean, minimal logo section:
-- 8 company logos  
-- Centered layout  
-- Hover effects  
-- Fully customizable
+Trusted Companies logo strip for brand credibility
