@@ -1,0 +1,31 @@
+.trusted-section {
+  background: #f7f8fa;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.trusted-text {
+  font-size: 15px;
+  color: #3c3b37;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.trusted-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.trusted-logos img {
+  height: 40px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.trusted-logos img:hover {
+  opacity: 1;
+}

@@ -1,0 +1,90 @@
+.course-card {
+  width: 260px;
+  height: 320px;
+  padding-bottom: 15px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  transition: 0.25s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.course-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 12px;
+}
+
+.course-instructor {
+  color: #666;
+  font-size: 14px;
+  margin: 0 12px 6px;
+}
+
+.course-rating {
+  margin: 0 12px 6px;
+  font-size: 14px;
+}
+
+.course-pricing {
+  margin: 0 12px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #777;
+  margin-left: 8px;
+}
+
+.course-badge {
+  background: #eceb98;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  margin: 10px 12px;
+  display: inline-block;
+}
+
+.course-link {
+  text-decoration: none; 
+  color: inherit;       
+  display: block;        
+}
+
+.course-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.course-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  margin: 10px 12px;
+  display: inline-block;
+  color: white;
+}
+
+.badge-bestseller {
+  background-color: #00bfa5; 
+}
+
+.badge-premium {
+  background-color: #8e44ad; 
+}
+
+.badge-hotnew {
+  background-color: #e74c3c; 
+}
+

@@ -1,0 +1,8 @@
+.skills-section {
+  display: flex;                   
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 0px;
+  background: white;
+  gap: 40px;                      
+}

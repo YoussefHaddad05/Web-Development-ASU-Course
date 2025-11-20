@@ -1,0 +1,84 @@
+.bblack-section {
+  background: #1c1d26;
+  color: white;
+  padding: 60px;
+  border-radius: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 50px;
+  margin: 50px auto;
+}
+.bblack-left {
+  width: 40%;
+}
+
+
+.bblack-left h1 {
+  font-size: 44px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.bblack-left p {
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 28px;
+}
+
+.bblack-features {
+  columns: 2;      
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+.bblack-features li {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.bblack-features li span {
+  font-weight: bold;
+}
+
+
+.bblack-btn {
+  background: white;
+  color: black;
+  border: none;
+  padding: 12px 80px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  transition: 0.3s;
+}
+
+.bblack-btn:hover {
+  background: #e4e4e4;
+}
+
+.price {
+  display: block;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.bblack-right {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.bblack-right img {
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+}
